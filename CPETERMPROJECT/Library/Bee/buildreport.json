@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 57531002855.7,"dur": 23819366.3, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 57531026432,"dur": 485081.7, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 57531677279.9,"dur": 23079053.8, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "12/13/2022 23:04:54",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.7f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\mk8328\\Desktop\\CPETERMPROJECT -useHub -hubIPC -cloudEnvironment production -buildTarget Android -licensingIpc LicenseClient-mk8328 -hubSessionId 6d9146a0-7ab5-11ed-8e26-fbfa2db79ef8 -accessToken WxjsxoW3Ld6rczkkF_NOwzcEyuKL_cb8lUwaBYdh9sI011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.7f1\\Editor\\Unity.exe -projectpath C:\\Users\\mk8328\\Desktop\\CPETERMPROJECT -useHub -hubIPC -cloudEnvironment production -buildTarget Android -licensingIpc LicenseClient-mk8328 -hubSessionId 6d9146a0-7ab5-11ed-8e26-fbfa2db79ef8 -accessToken WxjsxoW3Ld6rczkkF_NOwzcEyuKL_cb8lUwaBYdh9sI011f",
+"meta_user_name": "mk8328",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "16"
+}
